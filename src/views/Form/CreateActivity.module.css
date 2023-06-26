@@ -1,0 +1,158 @@
+.container{
+    
+    background-image: url('../../images/tech.jpg');
+    height: 70em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.createContainer{
+    display: flex;
+    justify-content:center;
+    margin-top: 5em;
+    
+}
+
+.title{
+
+    color: #F5F2E7;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.formContainer{
+    width: 30em;
+    height: 30em;
+    border-radius: 15px;
+    background-color: rgba(1, 13, 48, 0.85);
+}
+
+.title{
+    color:white;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-top: 1.5em;
+}
+
+.formContainer:hover {
+    box-shadow: 0px 0px 30px 1px rgba(232, 5, 5, 0.85);
+    transition: 0.3s;
+}
+
+
+.atribute{
+    
+    color: #F5F2E7;  
+} 
+
+  
+.input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #2666CF;
+    border-radius: 10px;
+    padding: 5px 20px;
+    max-width: 190px;
+    color: #F5F2E7;
+    background-color: #1a1a1a;
+ }
+   
+.input:active {
+    box-shadow: 0px 0px 5px #2666CF inset;
+}
+
+.select {
+
+    margin-top: 10px;
+    border: 2px solid #2666CF;
+    border-radius: 10px;
+    padding: 5px 20px;
+    max-width: 190px;
+    color: #F5F2E7;
+    background-color: #1a1a1a;
+}
+
+
+.select:active{box-shadow: 0px 0px 5px #2666CF inset;
+}
+
+.buttonscontainer{
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;   
+}
+
+.warning {
+    
+    color:yellow;
+    font-size: small;
+    margin: 2px 0px 5px 5.5em;
+} 
+
+
+.button {
+    width: 11em;
+    margin-top: 25px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 9px;
+    background: #2666CF;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #F5F2E7;
+    margin-bottom: 20px;
+}
+
+   
+.button:hover {
+    box-shadow: 0px 0px 15px #2666CF;
+}
+
+ 
+.countriesADDcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+    background-color: #395B64;
+
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.countriesADDcontainer p{
+    color: #2666CF;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.buttonXdelete{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0.5em;
+
+    background-color: rgba(1, 13, 48, 0.85);
+    border: 2px solid #2666CF;
+    border-radius: 5px;
+
+    width: 3em;
+    color:#2666CF;
+}
+
+.buttonXdelete:hover{
+    cursor: pointer;
+    border-color: red;
+    font-weight: bold;
+    color: red;
+}

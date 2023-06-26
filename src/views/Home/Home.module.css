@@ -1,0 +1,11 @@
+.container{
+    background-image: url('../../images/tech.jpg');
+    background-size: cover;
+}
+
+.cardsContainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
