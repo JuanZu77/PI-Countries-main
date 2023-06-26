@@ -1,0 +1,53 @@
+.container{
+    background-image: url('../../images/tech.jpg');
+    display: flex;
+    flex-direction: column;
+    height: 70em
+}
+
+.detailContainer{
+    background-color: rgba(2, 16, 87, 0.7);
+    border-radius: 15px;
+    padding: 1em 3em 1em 3em;
+    margin-top:0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.detail{       
+    color:white ;
+}
+
+.detailContainer h1{
+    color: #b40413;
+    font-weight: bolder;
+}
+
+.button {
+    width: 12em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    border-radius: 9px;
+    background: #2666CF;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #F5F2E7;
+
+   }
+   
+  .button:hover {
+    box-shadow: 0px 0px 10px #2666CF;
+   }
+   
+   .button:active {
+    transform: scale(0.97);
+    box-shadow: 0px 0px 20px  #2666CF;
+   }
+   

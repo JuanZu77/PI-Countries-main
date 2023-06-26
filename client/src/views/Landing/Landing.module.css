@@ -1,0 +1,55 @@
+.container{
+    margin: auto;
+    background-image: url('../../images/techLanding.png');
+    background-size:cover;
+    height: 70em;
+}
+
+.enter {
+    margin-top: 25em;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 9px;
+    background: #2666CF;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family:monospace;
+    font-weight: bold;
+    color: #F5F2E7;
+   }
+   
+.enter:hover {
+box-shadow: 0px 0px 15px #2666CF;
+}
+   
+.enter:active {
+transform: scale(0.97);
+box-shadow: 0px 0px 20px #F5F2E7;
+}
+
+.text h1{
+    color:rgba(2, 35, 204, 0.7);
+    font-weight: lighter;
+}
+
+.text{
+padding-top: 5em;
+color: rgba(2, 35, 204, 0.7);
+font-family:monospace;
+font-weight: lighter;
+text-shadow: 1px 1px 5px #b3b8c1;
+font-size: 20px;
+}
+
+.textbottom{
+    padding-top: 2em;
+    color: #080493;
+    font-family:monospace;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px #bbbbc5;
+    font-size: 10px;
+}
