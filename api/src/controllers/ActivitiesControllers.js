@@ -1,4 +1,3 @@
-
 const { Activity} = require('../db');
 
 //POST new activities

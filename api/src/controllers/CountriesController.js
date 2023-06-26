@@ -1,4 +1,3 @@
-
 const {Country, Activity} = require('../db');
 //Op (Operator) nos permite crear operaciones avanzadas y personalizadas. Permite la creacion de consultas complejas en las bases de datos
 const {Op} = require('sequelize');

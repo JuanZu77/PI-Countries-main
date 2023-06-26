@@ -32,7 +32,6 @@ module.exports = loaderDB;
 
 
 
-
 //https://restcountries.com/v3/all
 // id:e.cca3, 
 // name:e.name.common, 

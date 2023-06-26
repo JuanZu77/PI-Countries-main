@@ -1,4 +1,3 @@
-
 const validateActivity = (req, res, next) =>{
     const {name, difficulty, duration, season, countries} = req.body;
 
