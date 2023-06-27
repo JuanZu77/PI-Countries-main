@@ -35,7 +35,7 @@ describe ('Test Countries', ()=>{
     });
 
 
-});//describe principal
+});
 
 
 describe('TEST ACTIVITIES', ()=>{
@@ -52,7 +52,7 @@ describe('TEST ACTIVITIES', ()=>{
 
         const activity = { name:'Juan', difficulty:'3', duration:'5 hs', season:'summer', countries:'Argentina'}
     
-        const activityError = { name: 'Dani', difficulty:'3', duration:'5 hs', season:'summer'}//falta countries
+        const activityError = { name: 'Dani', difficulty:'3', duration:'5 hs', season:'summer'}//missing countries
     
         it ('should return Error if properties are missing, status(404)', async()=>{
               await agent.post('/activity').send(activityError).expect(404)
@@ -66,4 +66,4 @@ describe('TEST ACTIVITIES', ()=>{
     
     
 
-});//Cierra describe principal
+});

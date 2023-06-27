@@ -249,9 +249,3 @@ Ten en cuenta que en esta instancia no es obligatorio el desarrollo de testing p
 
   <img src="./countries.png" />
 # PI-Countries-main
-# PI-Countries-main
-# PI-Countries
-# PI-Countries
-# PI-Countries
-# PI-Countries-JuanZu77
-# PI-Countries-main

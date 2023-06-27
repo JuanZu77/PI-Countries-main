@@ -6,7 +6,7 @@ import { searchCountry } from '../../store/actions/actions';
 import style from './SearchBar.module.css';
 
 
-export default function SearchBar () {
+export default function SearchBar ({setCurrentPage}) {
 
      const [search, setSearch]=useState("");
  	   const dispatch = useDispatch()
@@ -17,12 +17,13 @@ export default function SearchBar () {
   //       dispatch(searchCountry(search))
         
   //     }else{
-  //       alert('ingrese al menos un caracter')
+  //       alert('Enter at least one character')
   //     }
   //  }
 
       useEffect(()=>{
         dispatch(searchCountry(search))
+        setCurrentPage(1)
       },[search,dispatch])
 
       function handleInput(e){

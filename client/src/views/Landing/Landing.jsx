@@ -20,7 +20,7 @@ export default function Landing () {
         </div>
 
         <div className={style.textbottom}>    
-            The whole world just a click away!
+           just a click away!
         </div>
         
        </div>
