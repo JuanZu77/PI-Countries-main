@@ -24,7 +24,7 @@ export default function SearchBar ({setCurrentPage}) {
       useEffect(()=>{
         dispatch(searchCountry(search))
         setCurrentPage(1)
-      },[search,dispatch])
+      },[search,setCurrentPage,dispatch])
 
       function handleInput(e){
       setSearch(e.target.value);

@@ -93,7 +93,12 @@ export default function CreateActivity (props) {
 
             if(errors.name || errors.difficulty || errors.duration || errors.season || errors.countries){
               alert("Loading errors. Check the fields...")
-            }else{
+            }
+              else if(inputBody.countries.length===0){
+              alert("You must select a country")
+  
+            }
+            else{
 
               if(inputBody.name && inputBody.difficulty && inputBody.duration && inputBody.season && inputBody.countries ){
                 dispatch(addActivity(inputBody));
