@@ -23,7 +23,8 @@ const loaderDB=async()=>{
 		});
 	}
 	catch(err){
-		console.log("error loading database",err)
+		console.log(err)
+		throw Error("error loading database",err)
 	}
 }
 
