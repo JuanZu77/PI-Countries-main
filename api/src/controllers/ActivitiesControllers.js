@@ -22,15 +22,28 @@ const postActivitiesDB = async (name, difficulty, duration, season, countries) =
         //     throw Error('You must complete all fields');
         // }
  };
-
-
+     
+        
 //GET all activities
 const getActivities = async () => {
        return await Activity.findAll();
 };
 
 
+//Delete
+        //  const deleteActivityDB = async (id) =>{
+        //         try {
+        //                 await Activity.destroy({
+        //                         where: {id:id}
+        //                    }) 
+        //         }catch(err){
+        //           throw Error ("ID NOT Found");
+        //         }
+        // }  
+
+
 module.exports = {
         postActivitiesDB, 
-        getActivities
+        getActivities,
+        //deleteActivityDB
 };
