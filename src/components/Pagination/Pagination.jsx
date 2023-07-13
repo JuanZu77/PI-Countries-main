@@ -20,6 +20,7 @@ export default function Pagination({ allCountry, countriesPerPage, paying, page,
     setPage(page + 1);
   };
 
+  // Button Visible
   const visiblePages = 4;
   const startIndex = Math.max(0, page - Math.floor(visiblePages / 2));
   const endIndex = Math.min(numberpage.length - 1, startIndex + visiblePages - 1);
