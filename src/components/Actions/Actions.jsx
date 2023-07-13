@@ -6,10 +6,10 @@ import FilterContinent from "../Actions/FilterContinent";
 import FilterByOrders from "../Actions/FilterByOrders";
 import Reset from "../Actions/Reset";
 
-export default function Actions({setCurrentPage, allCountries}){
+export default function Actions({setCurrentPage}){
      return(
         <div>
-            <SearchBar/>
+            <SearchBar setCurrentPage={setCurrentPage}/>
             <FilterContinent setCurrentPage={setCurrentPage}/>
             <FilterByOrders setCurrentPage={setCurrentPage}/>
             <Reset/>
