@@ -42,13 +42,8 @@ export default function Cards(){
 
 
 	return (
-	 <div className={style.container}>
-		<div>
-		<MenuBar 
-		setCurrentPage={setCurrentPage}/>
-		</div>
-	
-		 <div>
+    <div className={style.contenedor}> 
+			<div>
 			<Pagination 
 			allCountry={allCountry.length} 
 			countriesPerPage={countriesPerPage} 
@@ -56,18 +51,25 @@ export default function Cards(){
 			page={currentPage}
 			setPage={setCurrentPage}
 			/>
+         </div>
 
+       <div className={style.container}>
+			<div>
+				<MenuBar 
+				setCurrentPage={setCurrentPage}/>
+			</div>
+
+		
 			<div className={style.containerCard}>
 				
 				{currentCountries.map((e)=>{
 					return <Card key={e.id} id={e.id} name={e.name} flag={e.flag} continent={e.continent} capital={e.capital}/>
 				})}
 		   </div>
-		
-	     </div>
 
-	</div>
-	)
+		</div>
+   </div>
+	);
 }
 
 //Opcion 2 mapear allcountry y separar cada 10

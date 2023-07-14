@@ -12,6 +12,10 @@
     color: white;
   }
 
+  .card:hover{
+    scale: 1.1;
+  }
+
 /* p{
   color: rgb(175, 24, 170);
   text-decoration-color: aqua;

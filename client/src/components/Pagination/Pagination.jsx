@@ -26,27 +26,16 @@ export default function Pagination({ allCountry, countriesPerPage, paying, page,
   const visibleNumberPage = numberpage.slice(startIndex, endIndex + 1);
 
   return (
-    <div>
 		
-      <div className={style.containPreviusNext}>
-        <button
-          className={page === 1 ? style.invalid : style.previusNext}
-          onClick={onPreviusPage}
-        >
-          Previus
-        </button>
-        <button
-          className={
-            page >= numberpage.length ? style.invalid : style.previusNext
-		 }
-          onClick={onNextPage}
-        >
-          Next
-        </button>
-      </div>
-
       <nav className={style.paginado}>
-        <ul className={style.paginado}>
+        <ul>
+            <button 
+              className={page === 1 ? style.invalid : style.previusNext}
+              onClick={onPreviusPage}
+            >
+              Previus
+            </button>
+
           {visibleNumberPage &&
             visibleNumberPage.map((number) => (
               <li
@@ -63,8 +52,18 @@ export default function Pagination({ allCountry, countriesPerPage, paying, page,
                 </button>
               </li>
             ))}
+
+
+         <button
+            className={
+              page >= numberpage.length ? style.invalid : style.previusNext }
+            onClick={onNextPage}
+            >
+            Next
+        </button>
+
         </ul>
       </nav>
-    </div>
+
   );
 }

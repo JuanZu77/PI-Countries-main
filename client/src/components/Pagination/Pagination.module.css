@@ -1,10 +1,18 @@
 .paginado{
-	list-style: none;
 	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
 	justify-content: center;
-	padding:0.1em 0.5em 0.5em 0.5em;
-
 	margin-left: 2em;
+}
+
+.paginado ul {	
+    display: flex;
+	justify-content: center;
+	text-align: center;
+	list-style-type: none;
+	padding:0.5em 0.5em 0.5em 0.5em;
+    text-align: center;
 }
 
 .paginado li{
@@ -45,13 +53,13 @@
 	cursor: pointer;
 }
 
-.containPreviusNext{
+/* .containPreviusNext{
 	height: 3em;
 	display: flex;
     justify-content:flex-start;
 	margin: 1em 0 0 5em;
 
-}
+} */
 .previusNext{
 	background-color: #b1e2cb;
 	border-bottom: #b1e2cb;
