@@ -2,6 +2,12 @@
 
 # **COUNTRIES** | Proyecto Individual
 
+Aquí puedes ver el trabajo realizado:
+
+URL ➡️
+
+      
+       
 ## **📌 OBJETIVOS**
 
 -  Construir una Single Page Application utlizando las tecnologías: **React**, **Redux**, **Node**, **Express** y **Sequelize**.
